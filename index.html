@@ -7,6 +7,29 @@
     <title>GitHub Pages Test</title>
 </head>
 <style>
+    .flex {
+        display: flex;
+    }
+
+    .jst-center {
+        display: flex;
+        justify-content: center;
+    }
+
+    .aln-center {
+        display: flex;
+        align-items: center;
+    }
+    .flx-col {
+        display: flex;
+        flex-flow: column;
+        margin: 0 auto;
+    }
+
+    header {
+        height: 100vh;
+    }
+
     div {
         margin: 0 auto;
         height: 100vh;
@@ -19,14 +42,11 @@
     }
 </style>
 <body>
-<<<<<<< HEAD
-    <div>
-        <h1>GitHub Test</h1>
-        <h2>hello</h2>
-    </div>
-=======
-    <h1>GitHub Test</h1>
-    <h2>Hello Test</h2>
->>>>>>> gh-pages
+    <header class="flex jst-center aln-center">
+        <div class="flx-col">
+            <h1>GitHub Test</h1>
+            <h2>hello</h2>
+        </div>
+    </header>
 </body>
 </html>
